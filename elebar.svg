@@ -37,7 +37,7 @@
        id="Layer--2"
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;fill-rule:nonzero;stroke-linecap:square;stroke-linejoin:miter;stroke-width:1;stroke-miterlimit:10">
       <rect
-          style="fill:none;stroke-width:1.2"
+          style="fill:gray;stroke-width:1.2"
           id="5058FC2A"
           x="0.6"
           y="0.6"
@@ -72,56 +72,56 @@
           width="31.8854342152"
           height="31.8854342152"/>
       <rect
-          style="fill:none;stroke-width:1.2"
+          style="fill:#008c00;stroke-width:1.2"
           id="7CC87A3A"
           x="319.497637795"
           y="0.6"
           width="31.8854342152"
           height="31.8854342152"/>
       <rect
-          style="fill:none;stroke-width:1.2"
+          style="fill:#008c00;stroke-width:1.2"
           id="3CC87A3A"
           x="284.064566929"
           y="0.6"
           width="31.8854342152"
           height="31.8854342152"/>
       <rect
-          style="fill:none;stroke-width:1.2"
+          style="fill:#008c00;stroke-width:1.2"
           id="FBC87A3A"
           x="248.631496063"
           y="0.6"
           width="31.8854342152"
           height="31.8854342152"/>
       <rect
-          style="fill:none;stroke-width:1.2"
+          style="fill:#02b322;stroke-width:1.2"
           id="BBC87A3A"
           x="213.198425197"
           y="0.6"
           width="31.8854342152"
           height="31.8854342152"/>
       <rect
-          style="fill:none;stroke-width:1.2"
+          style="fill:#a946ff;stroke-width:1.2"
           id="7BC87A3A"
           x="177.765354331"
           y="0.6"
           width="31.8854342152"
           height="31.8854342152"/>
       <rect
-          style="fill:none;stroke-width:1.2"
+          style="fill:yellow;stroke-width:1.2"
           id="4BC87A3A"
           x="142.332283465"
           y="0.6"
           width="31.8854342152"
           height="31.8854342152"/>
       <rect
-          style="fill:none;stroke-width:1.2"
+          style="fill:#4646ff;stroke-width:1.2"
           id="0BC87A3A"
           x="106.899212598"
           y="0.6"
           width="31.8854342152"
           height="31.8854342152"/>
       <rect
-          style="fill:none;stroke-width:1.2"
+          style="fill:red;stroke-width:1.2"
           id="CAC87A3A"
           x="71.4661417323"
           y="0.6"
@@ -136,7 +136,7 @@
           height="31.8854342152"/>
       <text
           id="5F01FD3A"
-          style="stroke:none"
+          style="stroke:none;"
           font-family="Arial"
           font-size="18"
           font-weight="normal"
@@ -244,7 +244,7 @@
       </text>
       <text
           id="7440514A"
-          style="stroke:none"
+          style="stroke:none;"
           font-family="Arial"
           font-size="18"
           font-weight="normal"
