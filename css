@@ -1,6 +1,6 @@
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
@@ -8,7 +8,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
