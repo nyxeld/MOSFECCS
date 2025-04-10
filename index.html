@@ -2277,7 +2277,14 @@
             }, !1);
             yf.focus();
             pm.addEventListener("click", function (a) {
-                add(a, td, qd, hh, ck, yf, pd, Xf)
+                var b = yf.value;
+                "" === b ? a.preventDefault() : (a.preventDefault(), $f = b, td(0), qd(0), be = "X", hh(be), ck($f.trim()));
+                $f = "";
+                yf.value = "";
+                yf.blur();
+                pd();
+                Xf.style.visibility = "hidden"
+                filterFunctions(' ');
             }, !1);
             qm.addEventListener("click", function (a) {
                 a.preventDefault();
@@ -2286,6 +2293,7 @@
                 yf.blur();
                 pd();
                 Xf.style.visibility = "hidden"
+                filterFunctions(' ');
             }, !1);
             rm.addEventListener("click", function (a) {
                 var b = yf.value;
@@ -2295,6 +2303,7 @@
                 yf.blur();
                 pd();
                 Xf.style.visibility = "hidden"
+                filterFunctions(' ');
             }, !1);
             Xf.addEventListener("keypress", function (a) {
                 if (13 === a.which) {
@@ -2305,18 +2314,9 @@
                     yf.blur();
                     pd();
                     Xf.style.visibility = "hidden"
+                    filterFunctions(' ');
                 }
-            }, !1)
-            function add(a, td, qd, hh, ck, yf, pd, Xf) {
-                var b = yf.value;
-                "" === b ? a.preventDefault() : (a.preventDefault(), $f = b, td(0), qd(0), be = "X", hh(be), ck($f.trim()));
-                $f = "";
-                yf.value = "";
-                yf.blur();
-                pd();
-                Xf.style.visibility = "hidden"
-            }
-            //Caffeine
+            }, !1);
             m1.addEventListener("click", function (a) {
                 yf.value ="CN1C=NC2=C1C(=O)N(C)C(=O)N2C";
             }, !1);
@@ -9719,7 +9719,6 @@
         }, !1)
     };
 
-    //Custom part by Phoenix :)
     const moleculeListContainer = document.getElementById('moleculeListContainer');
     const searchInput = document.getElementById('smixtxa');
     const functionButtons = moleculeListContainer.querySelectorAll('button');
