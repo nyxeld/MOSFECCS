@@ -127,7 +127,7 @@
             <input type="button" id="undo" class="but" value="Undo" style="visibility: visible;">
             <input type="button" id="smiles" class="but" value="yoink SMILES" style="visibility: visible;">
             <input type="button" id="sm2str" class="but" value="yeet SMILES" style="visibility: visible;">
-            <input type="button" id="help" class="but" value="Help" style="visibility: visible;">
+            <input type="button" id="help" class="but" value="Schema" style="visibility: visible;">
             <img id="shift" src="./shift.png" class="shift" width="35" height="35" style="visibility: visible;">
             <img id="alt" src="./alt.png" class="alt" width="35" height="35" style="visibility: visible;">
         </div>
@@ -839,7 +839,7 @@
                     break;
                 case 72:
                     a = window.screenX;
-                    Fc = window.open("help/Uebersicht_Reaktionen_OC2_25.html", "Structural Formula Editor Help", "dependent=yes,scrollbars=yes,resizable=yes");
+                    Fc = window.open("help/Uebersicht_Reaktionen_OC2_25.html", "Reaktionsschema", "dependent=yes,scrollbars=yes,resizable=yes");
                     Fc.resizeTo(900, 900);
                     Fc.moveTo(a -
                         Fc.outerWidth - 5, 20);
@@ -9705,7 +9705,7 @@
             !1);
         document.getElementById("help").addEventListener("click", function () {
             var a = window.screenX;
-            Fc = window.open("./Uebersicht_Reaktionen_OC2_25.html", "Structural Formula Editor Help", "dependent=yes,scrollbars=yes,resizable=yes");
+            Fc = window.open("./Uebersicht_Reaktionen_OC2_25.html", "Reaktionsschema", "dependent=yes,scrollbars=yes,resizable=yes");
             Fc.resizeTo(900, 900);
             Fc.moveTo(a - Fc.outerWidth - 5, 20);
             document.getElementById("help").blur()
